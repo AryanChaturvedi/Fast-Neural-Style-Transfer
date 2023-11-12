@@ -84,6 +84,21 @@ Here are the required inputs to the model for image style transfer:
 ![VV_Bridge_NST2](https://github.com/AryanChaturvedi/Fast-Neural-Style-Transfer/assets/77160352/7507b732-c87b-4658-a646-210d26974077)
 
 
+## Instructions
+To run this model on your system
+- Copy this repository
+  - FastNeuralStyle.ipynb notebook file contains all the code.
+  - data directory contains all content and style images.
+  - models directory contains all pretrained transfer models used to generate above styles.
+  - For each model, generated images while training is stored in image name directory 
+   (VV_Bridge etc) where file name is no of iterations at which image is taken.
+- For training model on your own style
+  - Download and unzip coco dataset in current directory (code written in notebook)
+  - Adjust path for different irectories and run FastNuralStyle notebook.
+
+- For using pretrained models
+   - Load any pretrained model from models folder (Code written in notebook)
+   - get inference from these models
 
   
 
