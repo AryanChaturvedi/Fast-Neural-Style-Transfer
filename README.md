@@ -2,6 +2,8 @@
 - Neural Style Transfer Using Perceptual loss and Instance Normalization.
 - Modified Implimentation of Paper *"Perceptual Losses for Real-Time Style Transfer and Super-Resolution"* with **Instance Normalistion and Variational Regularization**.
 - Implimenttion of NST paper *"A Neural Algorithm of Artistic Style"* for Comaparision with Fast Perceptual method
+- Fast NST can learn single style and generalise it to any new image while NST trains a model to only transfer style from One image to other image.
+- Fast NST is seamlessly fast for inference on other images.
 ## Brief Overview
 ### Fast NST using Perceptual Loss
 Training a Fast style transfer model requires two networks:
@@ -50,6 +52,7 @@ Here are the required inputs to the model for image style transfer:
 
 
 ## Sample Style Transfer Results
+##### All models are trained for less than 5000 iterations due to time constrain.
 - Original Steve job Image and Vincent van Gogh's Portrait
   ![Steve Original](https://github.com/AryanChaturvedi/Fast-Neural-Style-Transfer/assets/77160352/479df1c8-7b48-4087-b7cd-9cd99609a42d)
 - Style Transfer using NST
